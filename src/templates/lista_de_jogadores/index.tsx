@@ -3,13 +3,13 @@ import { Conteudo, Tabela_parte1, Conteudo_do_jogo_corpo2, Tabela_de_informacoes
 
 export const Lista_de_jogadores = () => {
     return <Principal>
-
-        <Titulo>
-            <tr>
-                LISTA DE JOGOS
-            </tr>
-        </Titulo>
+        
         <Conteudo>
+            <Titulo>
+             <tr>
+                LISTA DE JOGOS
+             </tr>
+            </Titulo> 
             <Conteudo_jogos>
                 <Conteudo_do_jogo_tabela_1>
                     <Conteudo_do_jogo_title1>
@@ -71,7 +71,7 @@ export const Lista_de_jogadores = () => {
 
                     </Barra_progresso4>
                 </Conteudo_do_jogo_tabela_4>
-            </Conteudo_jogos>
+        </Conteudo_jogos>
             <Conteudo_jogos1>
 
                 <Conteudo_do_jogo_tabela_5>
@@ -100,8 +100,8 @@ export const Lista_de_jogadores = () => {
                             3 participantes
                         </tr>
                     </Conteudo_do_jogo_corpo6>
-                    <Barra_progresso6 className= "progress">
-
+                    <Barra_progresso6 className= "progress" >
+                       
                     </Barra_progresso6>
                 </Conteudo_do_jogo_tabela_6>
                 <Conteudo_do_jogo_tabela_7>
